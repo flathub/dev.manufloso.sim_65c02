@@ -139,9 +139,6 @@ modules:
         tag: v23.4.0
         commit: 327de902ffc49f8455ca5447b7682bc77be5de05
         disable-lfs: true
-        x-checker-data:
-          type: git
-          tag-pattern: ^v([\d.]+)$
 
   - name: cc65
     buildsystem: simple
